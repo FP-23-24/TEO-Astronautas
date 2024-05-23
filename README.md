@@ -100,4 +100,4 @@ Este tipo contendrá una lista que contendrá objetos Astronauta.
 - **obtenerListaOrdenadaPorVuelos**: Devuelve una lista con los n astronautas que más vuelos realizaron. La lista deberá estar ordenada por número de vuelos.
 - **obtenerMaximosVuelosPorStatus**: Se obtiene un map donde las claves son los posibles estados de los astronautas, y los valores son el máximo de vuelos espaciales que ha realizado un astronauta con ese estado
 - **obtenerMejoresAstronautasPorYear**: Devuelve un SortedMap donde las claves son los años en los que los astronautas realizaron su primer vuelo espacial, y los valores son los n mejores astronautas (basándonos en su número de vuelos espaciales) que realizaron su primer viaje en ese año.
-- **obtenerYearConMenosNumeroViajes**: Devuelve el año en el que hubo menos viajes espaciales. 
+- **obtenerYearConMenosNumeroViajes**: Devuelve el año de nacimiento de aquellos astronautas que hayan realizado menos viajes espaciales. Es decir, si hay 2 astronautas nacidos en 1960 cuya suma de viajes espaciales es 30, y 5 astronautas nacidos en 1973 que entre todos han viajado un total de 72 veces, el método debe devolver 1960.
